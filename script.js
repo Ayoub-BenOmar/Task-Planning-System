@@ -73,6 +73,28 @@ taskForm.addEventListener("submit", function(event) {
     let date = document.getElementById("date").value;
     let status = document.getElementById("status").value;
 
+    // verification
+    if (title === "") {
+        alert("Title cannot be empty.");
+        return;
+    }
+    if (description === "") {
+        alert("Description cannot be empty.");
+        return;
+    }
+    if (priority === "") {
+        alert("Please select a priority.");
+        return;
+    }
+    if (status === "") {
+        alert("Please select a status.");
+        return;
+    }
+    if (date === "") {
+        alert("Please select a due date.");
+        return;
+    }
+
     // Create a new task card
     let taskCard = document.createElement("div");
     taskCard.classList.add("p-4", "rounded-lg", "shadow-md", "border-4");
