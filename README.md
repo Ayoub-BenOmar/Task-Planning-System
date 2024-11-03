@@ -25,14 +25,14 @@ Ce projet est une application de To-Do List dynamique et interactive développé
 
 ### Ajouter une nouvelle tâche
 
-1- Cliquez sur le bouton "Créer une tâche" pour ouvrir le modal.
-2- Remplissez les informations de la tâche (titre, description, statut, date d’échéance, priorité).
-3- Cliquez sur "Ajouter la tâche" pour la sauvegarder. La tâche s'affichera dans la liste avec la couleur de priorité sélectionnée.
+- Cliquez sur le bouton "Créer une tâche" pour ouvrir le modal.
+- Remplissez les informations de la tâche (titre, description, statut, date d’échéance, priorité).
+- Cliquez sur "Ajouter la tâche" pour la sauvegarder. La tâche s'affichera dans la liste avec la couleur de priorité sélectionnée.
 
 ### Modifier le statut d'une tâche
 
-1- Sélectionnez le statut souhaité dans le menu déroulant de chaque tâche.
-2- La tâche sera automatiquement déplacée dans la section correspondante (À faire, En cours, Terminé).
+- Sélectionnez le statut souhaité dans le menu déroulant de chaque tâche.
+- La tâche sera automatiquement déplacée dans la section correspondante (À faire, En cours, Terminé).
 
 ### Afficher les statistiques
 
